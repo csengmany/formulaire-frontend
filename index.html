@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de contact</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./asset/js/main.js"></script>
+
+</head>
+<body>
+    <main class="container">
+        <div>
+            <h1>Formulaire de contact</h1>
+            <h2><span class="hidden">Le message a bien été envoyé !</span >&nbsp</h2>
+        </div>
+        <form id="contactForm" action="">
+            <input name="firstname"id="firstname"type="text" placeholder="Prénom"required> 
+            <input name="lastname"id="lastname"type="text" placeholder="Nom"required> 
+            <input name="email"id="email"type="text" placeholder="Email" required> 
+            <input name="subject"id="subject"type="text" placeholder="Sujet"> 
+            <textarea name="message" id="message" placeholder="Votre message ici..."required></textarea>
+            <input type="submit"id ="submit"value="Envoyer le message">
+        </form>
+    </main>
+</body>
+</html>
