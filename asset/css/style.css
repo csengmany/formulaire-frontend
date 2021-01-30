@@ -81,3 +81,43 @@ span {
     justify-content: center;
     margin: 20px;
 }
+@media (max-width: 768px) {
+    .container {
+        max-width: 80vw;
+        max-height: 90vh;
+        margin: 30px auto;
+        padding: 20px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    h1 {
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    textarea {
+        height: 20vh;
+    }
+    input,
+    textarea {
+        max-width: 70vw;
+    }
+
+    input[type="submit"] {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    span {
+        font-size: 12px;
+        margin: 0px;
+    }
+}
+@media (max-height: 600px) {
+    .container {
+        height: 100vh;
+        margin: 20px auto 0 auto;
+        padding: 10px 10px 0 10px;
+    }
+}
